@@ -159,9 +159,11 @@ def page(gabarit, *, titre, desc, canonique, contenu, racine, modcode="", audio=
 def bloc_audio(nn, racine):
     if os.path.exists(os.path.join(RACINE, "audio", "%s.mp3" % nn)):
         corps = '<audio controls preload="none" src="%saudio/%s.mp3"></audio>' % (racine, nn)
+        etiquette = "Écouter ce module — MOD.%s" % nn
     else:
-        corps = '<span class="abs">piste en préparation — le texte lu est déjà dans le dépôt (audio-texte)</span>'
-    return ('<div class="piste"><span class="lab">Piste audio — MOD.%s</span>%s</div>' % (nn, corps))
+        corps = '<span class="abs">piste en préparation</span>'
+        etiquette = "Piste audio — MOD.%s" % nn
+    return ('<div class="piste"><span class="lab">%s</span>%s</div>' % (etiquette, corps))
 
 
 def construire():
@@ -183,7 +185,7 @@ def construire():
         lect = ""
         if mod["lectures"]:
             lect = '<div class="lectures">%s</div>' % "".join("<p>%s</p>" % inline(l) for l in mod["lectures"])
-        contenu = "<h1>%s</h1>\n%s\n%s" % (H.escape(mod["titre"]), lect, corps_html)
+        contenu = "<h1>%s</h1>\n%s\n%s\n%s" % (H.escape(mod["titre"]), bloc_audio(nn, "../"), lect, corps_html)
         prev_a = next_a = ""
         if idx > 0:
             p_nn, p_base, p_mod = modules[idx - 1]
@@ -203,8 +205,8 @@ def construire():
               "license": "https://creativecommons.org/licenses/by-sa/4.0/", "url": url}
         htmlp = page(gabarit, titre="MOD.%s — %s · Inventaire" % (nn, mod["titre"]),
                      desc=premiere_phrase(corps_html), canonique=url, contenu=contenu, racine="../",
-                     modcode='<p class="modcode">Inventaire · MOD.%s · %d min de lecture</p>' % (nn, mod["minutes"]),
-                     audio=bloc_audio(nn, "../"), pied=pied, jsonld=jl)
+                     modcode='<p class="modcode">Inventaire · MOD.%s · %d min de lecture · texte &amp; audio</p>' % (nn, mod["minutes"]),
+                     audio="", pied=pied, jsonld=jl)
         with open(os.path.join(RACINE, "cours", base_nom + ".html"), "w", encoding="utf-8") as fh:
             fh.write(htmlp)
         pages_sitemap.append(url)
@@ -219,9 +221,11 @@ def construire():
             if not trouve:
                 continue
             _, base_nom, mod = trouve[0]
+            audio_dispo = os.path.exists(os.path.join(RACINE, "audio", "%s.mp3" % nn))
+            badge = '<span class="au" title="piste audio disponible">▶ audio</span>' if audio_dispo else ""
             reg.append('<li><a href="cours/%s.html"><span class="n">MOD.%s</span>'
-                       '<span class="t">%s</span><span class="dots"></span>'
-                       '<span class="len">%d min</span></a></li>' % (base_nom, nn, H.escape(mod["titre"]), mod["minutes"]))
+                       '<span class="t">%s</span>%s<span class="dots"></span>'
+                       '<span class="len">%d min</span></a></li>' % (base_nom, nn, H.escape(mod["titre"]), badge, mod["minutes"]))
         reg.append("</ul>")
     registre = "\n".join(reg)
 
