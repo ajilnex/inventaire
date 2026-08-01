@@ -1,0 +1,53 @@
+Inventaire. Module sept. La grande divergence.
+
+Un. Le sophisme dont il faut se guérir.
+
+Deuxième mouvement du cours. Le plafond a cédé quelque part — en Angleterre — et pas ailleurs. Avant de demander pourquoi, il faut se guérir d'un sophisme, le plus tenace de toute la discipline : le raisonnement rétrospectif.
+
+Nous connaissons la fin de l'histoire. Sachant que l'Europe « gagne », nous fouillons son passé et tout ce que nous y trouvons devient une cause : la rationalité grecque, le christianisme, les villes libres, la Réforme, la comptabilité en partie double, l'esprit scientifique. Le sophisme est structurel : tout ce qui a précédé un événement peut être raconté comme sa préparation. Ce genre d'explication ne coûte rien et n'interdit rien — elle aurait aussi bien expliqué une révolution industrielle chinoise, avec d'autres matériaux : l'examen mandarinal, l'imprimerie, la poudre, les greniers d'État.
+
+Le livre de Kenneth Pomeranz, paru en deux mille, doit son retentissement à ceci qu'il a rendu ce sophisme coûteux. Voici comment.
+
+Deux. Le premier temps : les ressemblances surprenantes.
+
+La première partie du livre s'intitule « Un monde de ressemblances surprenantes », et elle porte tout le reste.
+
+Pomeranz compare — méthodiquement, dossier par dossier — les régions les plus avancées des deux extrémités de l'Eurasie vers mille sept cent cinquante : l'Angleterre d'un côté, le delta du Yangzi de l'autre. Espérance de vie : comparable. Consommation de sucre, de textiles, d'objets : comparable. Marchés de la terre et du travail : le paysan du Yangzi est, à bien des égards, plus libre de vendre, d'acheter et de migrer que tel paysan d'Europe centrale encore sous contrainte seigneuriale. Techniques agricoles : sophistiquées des deux côtés. Institutions marchandes, crédit, manufactures rurales : présentes des deux côtés.
+
+Mesurez la conséquence. Si, à la veille de la rupture, les deux extrémités se ressemblent à ce point, alors toutes les explications par une supériorité européenne ancienne tombent d'un coup — non pas réfutées une à une, mais privées d'objet : elles expliquent un écart qui n'existait pas encore.
+
+La méthode importe autant que le résultat, et Pomeranz lui a donné un nom : les comparaisons réciproques. L'historiographie classique demandait : pourquoi la Chine n'a-t-elle pas eu de révolution industrielle ? — question qui fait de l'Europe la norme et de la Chine le manque. Pomeranz demande aussi l'inverse : vues du Yangzi, qu'est-ce que les campagnes européennes n'ont pas ? La symétrie n'est pas une politesse : c'est un instrument de détection des questions mal posées.
+
+Trois. Le second temps : le charbon et les acres fantômes.
+
+Si rien d'ancien ne sépare les deux mondes, qu'est-ce qui les sépare ensuite ? La réponse de Pomeranz tient en deux avantages contingents — deux coups de chance, pour parler net.
+
+Le premier est géologique : du charbon, et du charbon bien placé, proche des centres manufacturiers, dans une île où rien n'est loin d'un port. La Chine a du charbon aussi — mais au Shanxi, loin au nord-ouest, séparé du Yangzi par mille kilomètres et un réseau de transport que la houille ne pouvait pas rentabiliser. Même contrainte organique des deux côtés, même ingéniosité ; une seule des deux régions a la clé sous la main.
+
+Le second est atlantique : le Nouveau Monde. Les colonies fournissent à l'Angleterre ce qu'il aurait fallu des millions d'acres pour produire chez elle — le sucre qui nourrit, le bois qui construit, et surtout le coton qui habille et fait tourner Manchester. Pomeranz appelle cela les acres fantômes : la surface que l'Angleterre consomme sans la posséder. Il chiffre, en annexe : remplacer le seul charbon anglais du début du dix-neuvième siècle par du bois exigerait de l'ordre de quinze millions d'acres de forêt — vingt et un millions selon le coefficient retenu ; et les importations de fibres et de denrées du Nouveau Monde ajoutent, selon son calcul, plus de vingt et un millions d'acres fantômes encore. Rapportez ces nombres à la surface cultivable de la Grande-Bretagne, et vous voyez l'argument : le plafond du module deux n'a pas été percé de l'intérieur seulement ; il a été contourné par l'extérieur. Et cet extérieur — nous y venons au module neuf — n'était pas un don de la nature : c'était la plantation esclavagiste.
+
+Notez la parenté et la différence avec Wrigley. Même diagnostic de la contrainte organique ; mais chez Wrigley la sortie est géologique, chez Pomeranz elle est géologique et impériale. Le charbon et les colonies jouent le même rôle dans son équation : des acres qui ne comptent pas.
+
+Quatre. Ce que l'échelle choisie rend invisible.
+
+Appliquons à Pomeranz notre règle sur les échelles. Comparer des régions — Angleterre contre Yangzi — plutôt que des continents est ce qui rend la comparaison honnête : opposer « l'Europe » à « la Chine », c'est comparer une pointe avancée à une moyenne d'empire, et conclure d'avance.
+
+Mais ce choix a un coût, que les critiques ont immédiatement pointé. L'unité d'action politique, au dix-huitième siècle, n'est pas la région : c'est l'État. C'est le royaume de Grande-Bretagne qui lève des flottes, protège Manchester par des tarifs, conquiert et tient les acres fantômes ; le delta du Yangzi, lui, ne décide de rien — il est administré d'ailleurs. En comparant des régions, Pomeranz neutralise précisément la variable — l'État, la guerre, l'empire — que Tilly nous a appris à regarder. Ses critiques « étatistes » ne disent pas autre chose : les ressemblances régionales sont réelles, mais la divergence s'est jouée à une échelle où les deux joueurs n'étaient pas de même nature.
+
+Cinq. La dispute des dates.
+
+Reste le front le plus technique, et le plus vivant : quand la divergence commence-t-elle ? Chez Pomeranz, tard — les chemins ne se séparent vraiment qu'après mille sept cent cinquante, voire mille huit cents. Or les reconstructions quantitatives menées depuis — produits par tête recalculés sur plusieurs siècles, pour l'Angleterre, la Hollande, la Chine, l'Inde — suggèrent, chez plusieurs équipes, un écart déjà sensible au dix-septième siècle, parfois avant.
+
+Le chapitre de Jack Goldstone dans votre volume collectif fait le tour de ce dossier, et vous êtes maintenant équipés pour le lire correctement : ces reconstructions sont des chaînes de fabrication au sens du module trois — archives, paniers, conversions, interpolations — et une partie du désaccord sur les dates est un désaccord sur les chaînes. Ne tranchez pas ; sachez où porte le litige. Et lisez le chapitre que Pomeranz cosigne avec Parthasarathi dans le même volume, vingt ans après son livre : on y voit un auteur céder du terrain sur des dossiers — certaines séries de consommation, certaines datations — et tenir bon sur la structure. C'est un spectacle rare et instructif : la révision publique d'une grande thèse par son auteur.
+
+Six. La carte des explications.
+
+Pour finir, prenez de la hauteur avec Koyama et Rubin, dont le livre récent inventorie les familles d'explications de la richesse moderne. Il y en a cinq, et vous en connaissez déjà des pièces : la géographie — ressources, climats, charbon bien ou mal placé ; les institutions — droits sûrs, pouvoirs contraints, ce sera le module onze ; la culture — de la thèse de Weber sur l'éthique protestante aux travaux de Mokyr sur la République des Lettres ; la démographie — régimes de mariage et pressions malthusiennes ; la colonisation — de Williams à Pomeranz, ce sera le module neuf.
+
+Aucune n'a gagné. Le livre de Koyama et Rubin vaut précisément parce qu'il présente chacune par son meilleur argument avant d'en montrer les limites — c'est l'hygiène que ce cours essaie de vous donner. Lisez-le après Pomeranz, jamais à la place : la carte ne remplace pas le terrain.
+
+Retenez ceci. Premièrement, le sophisme rétrospectif : tout passé peut être raconté comme préparation. Une explication qui n'interdit rien n'explique rien. Deuxièmement, Pomeranz, premier temps : vers mille sept cent cinquante, Angleterre et delta du Yangzi se ressemblent — donc les supériorités européennes anciennes expliquent un écart qui n'existait pas. Troisièmement, second temps : deux contingences — le charbon bien placé, les acres fantômes du Nouveau Monde. Le plafond organique est contourné autant que percé — et le contournement passe par l'empire. Quatrièmement, les comparaisons réciproques : symétriser la question pour détecter les questions mal posées. Cinquièmement, le coût de l'échelle régionale : elle neutralise l'État, la guerre, l'empire — précisément ce que les critiques remettent au centre. Sixièmement, la date de la divergence est le front actif ; le litige est, pour une large part, un litige de fabrication de séries — module trois.
+
+Les lectures de ce module : Pomeranz, The Great Divergence, introduction et première partie. Puis : dans Roy et Riello, Global Economic History, le chapitre un (Parthasarathi et Pomeranz) et le chapitre deux (Goldstone). Panorama : Koyama et Rubin, How the World Became Rich.
+
+Module suivant : Pourquoi l'Angleterre.
