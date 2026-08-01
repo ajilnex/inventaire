@@ -1,0 +1,136 @@
+# Module 2 — Le plafond
+
+**Lecture** : Wrigley, *Energy and the English Industrial Revolution*, chapitre 1, « The limits to growth in organic economies ».
+**En complément** : chapitre 2, « The transition from an organic to an energy-rich economy ».
+
+---
+
+## 1. La bonne question n'est pas celle qu'on croit
+
+On demande d'ordinaire : *pourquoi la croissance a-t-elle commencé ?*
+
+Wrigley déplace la question, et c'est le geste dont tout son livre découle. La vraie énigme, écrit-il, n'est pas comment la révolution industrielle a commencé — des accélérations, il y en avait eu d'autres, à Song en Chine, dans l'Italie des communes, dans la Hollande du Siècle d'or. La vraie énigme est **pourquoi elle ne s'est pas arrêtée**.
+
+Car toutes les précédentes s'étaient arrêtées. Non par accident, non par malchance politique, non par manque d'esprit d'entreprise. Il y avait une raison, et elle était physique.
+
+---
+
+## 2. Faire le compte de l'énergie
+
+Voici l'inventaire complet de l'énergie disponible dans une société avant le charbon. Il tient en trois lignes.
+
+**La force mécanique** vient du muscle : celui des hommes, celui des bêtes de trait. Le vent et l'eau ajoutent quelque chose — moulins, voiles — mais peu, et de manière localisée : il n'y a pas de moulin sans rivière, ni de voile dans les terres.
+
+**La chaleur** vient de la combustion du bois, ou du charbon de bois qui en est tiré.
+
+**Et c'est tout.**
+
+Or le muscle se nourrit de plantes, et le bois est une plante. Toute l'énergie d'une telle société vient donc, sans exception, de la photosynthèse **en cours** — du rayonnement solaire capté cette année-là, sur une surface donnée.
+
+C'est cela qu'on appelle une **économie organique**. Et la propriété qui compte, la seule, est celle-ci : la surface est fixe.
+
+---
+
+## 3. Tout se dispute la même terre
+
+Voilà la conséquence, et elle est plus brutale qu'elle n'en a l'air.
+
+Dans une économie organique, il n'y a pas de secteur qui puisse croître sans en gêner un autre, parce qu'ils puisent tous au même endroit. Nourrir un homme, c'est de l'acre. Nourrir le cheval qui tire sa charrette, c'est encore de l'acre. Chauffer sa forge, c'est de l'acre en forêt. Construire son navire, de l'acre. Habiller sa famille — laine, donc pâture, donc acre ; lin, donc champ, donc acre.
+
+Un exemple qui vaut démonstration. Wrigley observe qu'entre la fin du Moyen Âge et le début du XIX<sup>e</sup> siècle, **l'avoine progresse plus vite que toutes les autres céréales** en Angleterre, à la fois en production totale et en rendement à l'acre. Pourquoi l'avoine ? Parce que son usage dominant est de nourrir les chevaux, et que le transport routier explose au XVIII<sup>e</sup> siècle avec les routes à péage.
+
+Prenez la mesure de ce que cela dit. La céréale qui monte le plus vite dans l'Angleterre pré-industrielle est celle qui alimente les moteurs, pas celle qui nourrit les hommes. La terre qui accueille le transport est de la terre qui n'accueille plus de pain.
+
+---
+
+## 4. Le calcul du fer
+
+Je vous donne maintenant le calcul le plus éloquent du livre. Suivez-le, il est simple, et vous ne l'oublierez plus.
+
+Produire une tonne de fer en barre, dans l'Angleterre du XVII<sup>e</sup> siècle, consommait environ **trente tonnes de bois sec**.
+
+Wrigley pose alors une expérience de pensée. Supposons que la moitié de la surface de la Grande-Bretagne soit couverte de forêt, exploitée en rendement soutenu — c'est-à-dire sans jamais couper plus que ce qui repousse. Combien de fer, chaque année ?
+
+**Environ un million deux cent cinquante mille tonnes.** Et c'est un plafond absolu : la moitié d'un pays, entièrement en bois, pour rien d'autre que le fer.
+
+Deux points de comparaison achèvent la démonstration.
+
+Le premier : à la fin des années 1830, la production britannique de fonte avait déjà atteint ce niveau. Le plafond théorique de l'économie du bois, la Grande-Bretagne le franchissait à peine sortie de sa révolution — mais elle le franchissait au charbon.
+
+Le second, que Wrigley pose sans commentaire : **en 2008, la Chine a produit cinq cents millions de tonnes d'acier.** Quatre cents fois le plafond absolu d'une économie organique de la taille de la Grande-Bretagne. « Aucune économie organique n'aurait pu produire même une fraction infime de ce total. »
+
+Cessez un instant de lire et regardez ce chiffre. Il ne dit pas que les hommes d'avant travaillaient moins bien. Il dit qu'il y avait un mur.
+
+@@FIG:fer@@
+
+**Et maintenant, la leçon de méthode.** En note, sous ce calcul, Wrigley précise que les estimations du bois nécessaire à une tonne de fer en barre varient, selon les auteurs, **entre vingt-cinq et cinquante tonnes**. Il a pris trente. Il aurait pu prendre cinquante et son plafond aurait été presque deux fois plus bas.
+
+Un auteur qui vous montre sa fourchette avant de choisir son point est un auteur avec qui on peut travailler. Cherchez cette note chez ceux que vous lirez. Son absence est un renseignement.
+
+---
+
+## 5. Malthus et Ricardo n'avaient pas tort
+
+Ici, une réparation à faire, parce qu'on vous a probablement menti sur ces deux-là.
+
+**Ricardo**, dans le chapitre « Des profits » de ses *Principes* de 1817, raisonne ainsi. Quand la population augmente, il faut mettre en culture des terres moins bonnes. Le rendement du dernier acre baisse. La rente des bonnes terres monte, puisque leur avantage relatif s'accroît. Le profit, coincé entre la rente qui monte et le salaire qui ne peut descendre en dessous de la subsistance, s'écrase. Et quand le profit atteint zéro, l'accumulation cesse. C'est ce qu'il appelle l'état stationnaire.
+
+**Malthus**, en 1798, dit une chose voisine par un autre chemin : la population, si rien ne l'arrête, croît en progression géométrique ; les subsistances, en progression arithmétique. Il faut donc que quelque chose l'arrête — et ce sera la misère, ou la prudence.
+
+On se moque volontiers d'eux, aujourd'hui, en observant qu'ils se sont trompés : la croissance n'a pas cessé, la population a explosé et s'est nourrie.
+
+C'est passer à côté. **Ils décrivaient correctement le monde qu'ils avaient sous les yeux.** Ils avaient identifié la contrainte réelle — la fixité de la terre — et ils en tiraient la conséquence rigoureuse. Leur malheur est d'avoir écrit à l'instant précis où cette contrainte se desserrait, sans pouvoir le voir, parce que rien dans leur expérience ne permettait de le concevoir.
+
+Wrigley ajoute, et c'est justice, que Malthus a considérablement modifié sa position dans les éditions ultérieures de l'*Essai*, et que la sophistication de sa position finale est souvent négligée dans les descriptions qu'on en fait. Vous rencontrerez ce cas de figure souvent : **un classique réfuté sur ses prédictions et fécond sur sa question.** Apprenez à distinguer les deux.
+
+---
+
+## 6. Ce que le plafond n'interdit pas
+
+Attention à ne pas surcharger la thèse. Un plafond n'est pas une immobilité.
+
+Sous le plafond, on peut faire beaucoup. On peut se spécialiser et échanger — c'est la croissance que les historiens appellent smithienne, du nom d'Adam Smith : le gain vient de la division du travail et de l'étendue du marché, non d'un supplément d'énergie. On peut améliorer les assolements, les outils, les races animales. On peut déplacer la production là où elle rend le plus. Les Provinces-Unies du XVII<sup>e</sup> siècle sont devenues très riches ainsi, et sans charbon — enfin, avec de la tourbe, ce qui est une autre histoire.
+
+Mais tout cela est **borné**. Wrigley donne le chiffre : dans une économie organique pleinement installée, un taux de croissance de la production soutenu à 0,5 % par an était probablement inconnu. Et il précise ce que ce taux voudrait dire : un doublement en cent quarante ans environ, une multiplication par douze en cinq siècles.
+
+Comparez avec ce que nous appelons aujourd'hui une croissance médiocre — 1,5 %, 2 % — et vous mesurerez le changement de monde.
+
+---
+
+## 7. Ce que le plafond fait à la politique
+
+Reprenons le fil du module 1, car c'est ici que les deux se nouent.
+
+Si le total ne peut guère augmenter, alors **obtenir davantage, c'est prendre à quelqu'un**. La distribution n'est plus une question morale qui s'ajoute à l'économie : elle *est* le problème économique.
+
+Vous comprenez du même coup pourquoi les sociétés d'avant sont si obsédées par le grain, les greniers, les prix du blé, les réserves. Pourquoi la guerre y est une industrie. Pourquoi les révoltes y portent sur les subsistances plutôt que sur les salaires. Et pourquoi les doctrines économiques anciennes — le juste prix, l'interdiction de l'usure, la police des marchés — sont des doctrines de la répartition et non de la production.
+
+Ce n'est pas qu'ils fussent moins intelligents que nous. C'est qu'ils vivaient sous un plafond et le savaient.
+
+---
+
+## 8. Ce qui vient, et où ça se disputera
+
+Le plafond a cédé, quelque part, à un moment. L'économie qui suit, Wrigley l'appelle **énergivore** — *energy-rich* — et sa définition tient en un mot : elle ne vit plus d'un **flux**, la photosynthèse de l'année, mais d'un **stock**, la photosynthèse fossilisée de trois cents millions d'années.
+
+Le rendement thermique change aussi : Wrigley donne 4 200 kilocalories au kilogramme pour le bois sec, contre 8 000 pour la houille. Presque le double, et sans acre.
+
+Mais — et c'est ici que le cours devient intéressant — **nul n'est d'accord sur ce que cela explique.**
+
+Que le charbon ait desserré une contrainte physique, personne ne le conteste sérieusement. Que ce desserrement soit *la cause* de la révolution industrielle, beaucoup le contestent. Robert Allen soutient que ce sont les prix relatifs — salaires élevés, énergie bon marché — qui rendaient la mécanisation rentable en Angleterre et nulle part ailleurs. Andreas Malm attaque frontalement ce qu'il appelle le récit ricardo-malthusien et nomme Wrigley : selon lui, la vapeur n'a pas gagné parce que l'eau manquait ou coûtait cher — elle a gagné parce qu'elle donnait aux industriels la maîtrise du lieu et de l'heure, c'est-à-dire du travail.
+
+Trois positions, trois auteurs vivants du débat, trois auteurs à notre programme. Nous les mettrons face à face au **module 8**. D'ici là, tenez le plafond pour acquis et la cause de sa rupture pour ouverte.
+
+---
+
+## Ce qu'il faut emporter
+
+- Dans une **économie organique**, toute l'énergie vient de la photosynthèse en cours. Muscle pour la force, bois pour la chaleur. Le vent et l'eau ajoutent peu.
+- Donc **tous les usages se disputent la même surface**, qui est fixe. L'avoine anglaise en est le témoin : la céréale qui croît le plus vite est celle qui nourrit les chevaux.
+- **Le calcul du fer** : trente tonnes de bois par tonne de fer en barre ; la moitié de la Grande-Bretagne en forêt donnerait au mieux 1,25 million de tonnes par an ; la Chine en a produit 500 millions en 2008.
+- Wrigley donne sa fourchette (25 à 50 tonnes de bois) avant de choisir son chiffre. **C'est à cela qu'on reconnaît un auteur sérieux.**
+- **Ricardo et Malthus décrivaient juste** un monde qui allait cesser d'exister. Réfutés sur leurs prédictions, féconds sur leur question.
+- Le plafond n'interdit ni la spécialisation, ni l'échange, ni le progrès technique. Il les **borne** : au-delà de 0,5 % l'an soutenu, on ne trouve rien.
+- L'économie qui suit vit d'un **stock** et non d'un flux. Ce que ce stock explique est **disputé** : Wrigley, Allen et Malm ne disent pas la même chose.
+
+**Module suivant :** [Ce que « pauvre » veut dire](03-ce-que-pauvre-veut-dire.md)

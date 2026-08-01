@@ -1,0 +1,83 @@
+# Module 4 — Le grain et l'État
+
+**Lecture** : Scott, *Homo Domesticus*, chapitres 4 et 5, puis le chapitre 7, qui est l'objection.
+**Source** : Ibn Khaldūn, *Le Livre des Exemples* (la *Muqaddima*), le chapitre sur les impôts.
+
+---
+
+## 1. Prendre la thèse au sérieux, c'est chercher à la casser
+
+Nous avons posé au module 1 une thèse forte : ce qui n'est pas lisible n'est pas prélevable régulièrement, et les premiers États ne se sont formés que sur les céréales. Un cours qui se contenterait de la répéter en ferait un slogan. Ce module la démonte pièce à pièce — son mécanisme, ses preuves, puis ses deux objections, dont l'une vient de Scott lui-même.
+
+Rappelons le mécanisme, car il est d'une précision qu'on peut tester. La céréale a cinq propriétés que nul tubercule ne réunit : elle pousse **au-dessus du sol**, donc elle se voit ; elle mûrit **à date à peu près fixe**, donc le percepteur sait quand venir ; elle mûrit **toute en même temps**, donc on ne peut pas la lui cacher en étalant la récolte ; elle se **divise et se mesure** — le boisseau est une unité fiscale avant d'être une unité de cuisine ; elle se **stocke et se transporte**, donc elle peut nourrir des gens loin du champ, des soldats, des scribes, une cour. L'igname rate quatre de ces cinq épreuves : elle reste en terre, se déterre quand on veut, pourrit vite, voyage mal. Elle est, au sens plein, illisible.
+
+Voilà pourquoi, selon la formule de Scott que vous connaissez, l'histoire n'a pas enregistré d'États du manioc ni de la patate douce.
+
+---
+
+## 2. L'embarras chronologique, que Scott assume
+
+Première épreuve : la chronologie. Si la céréale suffisait à faire l'État, l'État serait né avec elle. Or il y a un trou, et il est énorme.
+
+La domestication des céréales, au Proche-Orient, remonte à une dizaine de millénaires. Les premiers États dignes de ce nom — murailles, administration, prélèvement régulier — apparaissent en basse Mésopotamie vers le quatrième millénaire avant notre ère. Entre les deux : plusieurs milliers d'années de villages agricoles **sans État**. Des siècles de blé sans percepteur.
+
+Scott ne cache pas ce hiatus ; il en fait un chapitre. Et il en tire la conclusion logique : la céréale est une condition **nécessaire**, non suffisante. Il faut autre chose — une concentration de population et de terres arables dans un espace circonscrit, souvent borné par des zones qu'on ne peut pas fuir ; et un appareil qui saisisse l'occasion. L'État n'est pas le fruit mûr de l'agriculture : c'est une capture tardive, opérée sur un paysage agraire qui l'a précédé de très loin.
+
+Retenez le geste méthodique autant que la thèse : quand votre mécanisme prédit trop — ici, des États dès le néolithique —, c'est qu'il lui manque une pièce, et l'honnêteté consiste à le dire.
+
+---
+
+## 3. L'écriture, encore
+
+Le chapitre 4 de Scott donne à notre tablette d'Uruk son cadre théorique. L'écriture naît comptable ; elle reste, pendant des siècles, un instrument presque exclusivement administratif — listes, rations, corvées, inventaires. Scott note ce détail qui vaut un traité : dans la Mésopotamie archaïque, le signe pour « ration de travail » et l'organisation des hommes en équipes comptées apparaissent ensemble. On n'écrit pas d'abord des dieux ; on écrit des dettes d'orge.
+
+Et le grenier, qui va avec l'écriture, est une institution à double face. Face interne : il lisse les années — on stocke le bon an pour le mauvais — et il paie ceux qui ne cultivent pas ; c'est la banque centrale du monde agraire. Face externe : il concentre en un lieu la richesse de tous, et devient par là même **la cible**. Un grenier plein est un argument pour la muraille ; une muraille est un argument pour l'impôt qui la paie. L'État se referme sur lui-même comme une démonstration.
+
+---
+
+## 4. Ibn Khaldūn, ou la limite interne du prélèvement
+
+Changeons de continent et de siècle, et lisons un théoricien que le prélèvement a regardé en face : Ibn Khaldūn, Tunis, fin du quatorzième siècle. Dans la *Muqaddima*, au chapitre des impôts, il formule un cycle que voici, dans la traduction d'Abdesselam Cheddadi.
+
+Au commencement d'une dynastie, l'État « n'applique que les taxes légales » — aumône, impôt foncier, capitation — qui sont « des impôts peu élevés » et qui « ont des limites qui ne peuvent être dépassées ». Or, écrit-il, « quand les taxes et les impôts prélevés sur les sujets sont légers, ceux-ci sont plus actifs et plus entreprenants. Les activités s'accroissent et ne cessent d'augmenter ». L'assiette s'élargit, et le revenu total monte.
+
+Puis la dynastie vieillit. Le luxe s'installe, les besoins croissent, et les gouvernants « multiplient les impôts qu'ils prélèvent sur les sujets » et « augmentent très fortement le taux de chaque impôt ». Jusqu'au renversement : « Les sujets ne trouvent plus aucun intérêt à s'adonner à des activités économiques : la faiblesse de leur profit […] leur enlève tout espoir. Beaucoup cessent d'entreprendre quoi que ce soit. Il en résulte une baisse du revenu fiscal. » Et devant cette baisse, les gouvernants — c'est la phrase terrible — « augmentent le taux des impôts, en croyant compenser de la sorte le manque à gagner ».
+
+On a voulu faire de ce passage une courbe de Laffer avant l'heure, l'argument éternel contre l'impôt. C'est une lecture anachronique, et voici pourquoi. Chez l'économiste moderne, le taux d'imposition est un **choix**, réversible, qu'un gouvernement avisé peut corriger. Chez Ibn Khaldūn, la pression fiscale croissante est un **destin** : elle suit le cycle de l'esprit de corps — la *asabiyya*, cette solidarité rude des gens de la steppe qui fonde les dynasties et se dissout dans le confort urbain en trois ou quatre générations. La dynastie ne peut pas choisir de rester frugale, pas plus qu'un homme ne choisit de ne pas vieillir. Ce n'est pas un conseil de politique fiscale ; c'est une théorie de la mort des États.
+
+Ce qui reste, une fois l'anachronisme écarté, est considérable : la première formulation rigoureuse de l'idée que **le prélèvement détruit sa propre assiette** quand il franchit un seuil — et qu'il tend structurellement à le franchir.
+
+---
+
+## 5. L'objection que Scott se fait à lui-même
+
+Le chapitre 7 de *Homo Domesticus* s'intitule « L'âge d'or des barbares », et il ruine — en apparence — tout ce qui précède.
+
+Car les « barbares » — nomades, montagnards, gens des marais, tous ceux que l'État ne tient pas — prélèvent massivement, et n'écrivent rien. La razzia prend en un jour ce que l'impôt prend en un an. Les steppes ont fait trembler les empires agraires pendant deux millénaires, et l'on sait que des confédérations nomades ont vécu somptueusement du tribut — le mot est faible : du chantage — imposé à la Chine.
+
+La thèse s'effondre-t-elle ? Non : elle se **déplace**, et gagne en précision. Regardez ce que pille le pilleur : du grain déjà moissonné, déjà mesuré, déjà stocké — par l'État. Le nomade ne cadastre pas, parce que l'État a cadastré pour lui. La razzia est un prélèvement **parasite**, de second ordre, qui suppose le registre d'autrui. D'où la formule de Scott : les barbares sont les « jumeaux sombres » de la civilisation — ils prospèrent à sa lisière, jamais loin d'elle, et meurent de sa mort.
+
+Version corrigée de la thèse, donc : l'inscription n'est pas la condition de *tout* prélèvement ; elle est la condition du prélèvement **régulier, intérieur et durable**. Le coup de main s'en passe ; l'impôt, jamais.
+
+---
+
+## 6. L'objection qui vient d'ailleurs
+
+Reste une épreuve, que Scott ne fait que frôler et que nous prendrons de front au module 10 : l'Afrique.
+
+Sur une grande partie du continent, historiquement, la terre était abondante et les hommes rares — l'inverse exact de la basse Mésopotamie. Or que devient le mécanisme dans ce cas ? Taxer la terre n'a aucun sens : le paysan pressuré s'en va défricher plus loin, et l'exit est toujours ouvert. Ce qui est rare, donc précieux, donc disputé, ce ne sont pas les champs : ce sont **les personnes**. Et de fait, les formes africaines du pouvoir et de la richesse — clientèles, dépendants, captifs, épouses, ce que l'historiographie appelle la richesse en hommes — portent sur les gens, non sur les surfaces.
+
+Le mécanisme de Scott n'est pas réfuté : il est **paramétré**. Là où la terre est le facteur rare, on inscrit des champs ; là où c'est l'homme, on marque des corps et l'on compte des dépendants. Ce que l'État inscrit, c'est toujours le facteur rare. Gardez cette reformulation : c'est elle que le module 10 mettra à l'épreuve, et elle éclaire d'avance le module 9 — car l'esclavage de plantation est exactement cela : un prélèvement inscrit sur les personnes.
+
+---
+
+## Ce qu'il faut emporter
+
+- Le mécanisme céréalier tient en cinq propriétés : visible, datable, simultanée, mesurable, stockable. **L'igname échoue à quatre.**
+- Mais la céréale précède l'État de plusieurs millénaires : condition **nécessaire, non suffisante**. Scott le concède, et ce concessif est un modèle de méthode.
+- L'écriture naît comptable ; le grenier est à double face — assurance et cible.
+- Ibn Khaldūn : le prélèvement **détruit son assiette** au-delà d'un seuil, et tend par destin dynastique à le franchir. Cycle, non conseil ; le lire en courbe de Laffer est un anachronisme.
+- La razzia prélève sans écrire — mais sur le registre d'autrui. Thèse corrigée : l'inscription conditionne le prélèvement **régulier et intérieur**.
+- Là où l'homme est le facteur rare, c'est lui qu'on inscrit. L'Afrique impose de reparamétrer le mécanisme, non de l'abandonner.
+
+**Module suivant :** [La guerre et l'impôt](05-la-guerre-et-l-impot.md)

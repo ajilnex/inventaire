@@ -1,0 +1,41 @@
+<figure class="diagram" id="fig-surplus">
+  <svg viewBox="0 0 640 120" role="img" aria-labelledby="fs-t" aria-describedby="fs-d">
+    <title id="fs-t">La frontière du surplus</title>
+    <desc id="fs-d">Barre de production divisée entre subsistance et surplus ; la frontière est réglable.</desc>
+    <text x="0" y="18" font-size="12" fill="#96a09a" letter-spacing="2">PRODUCTION D'UNE ANNÉE</text>
+    <rect x="0" y="30" width="640" height="34" fill="none" stroke="#27312c"/>
+    <rect id="fs-sub" x="2" y="32" width="476" height="30" fill="#5b7fd0"/>
+    <rect id="fs-sur" x="482" y="32" width="156" height="30" fill="#15a869"/>
+    <text id="fs-subl" x="10" y="52" font-size="13" fill="#0b0d0c" font-weight="bold">SUBSISTANCE 75 %</text>
+    <text id="fs-surl" x="630" y="86" font-size="13" fill="#dde3de" text-anchor="end">SURPLUS 25 %</text>
+    <line id="fs-fr" x1="480" y1="24" x2="480" y2="70" stroke="#2fe08c" stroke-width="2"/>
+    <text id="fs-ratio" x="0" y="108" font-size="13" fill="#dde3de">≈ 1 non-producteur entretenu pour 3 producteurs</text>
+  </svg>
+  <div class="dg-controls">
+    <span>DÉPLACEZ LA FRONTIÈRE</span>
+    <input id="fs-in" type="range" min="55" max="95" value="75" step="1"
+      aria-label="Part de la production absorbée par la subsistance, en pourcentage">
+    <output id="fs-out" for="fs-in">75&nbsp;%</output>
+  </div>
+  <figcaption><b>fig. 01</b> — le surplus n'est pas une quantité observée : c'est ce qui reste une fois la frontière fixée. Déplacez-la, et comptez qui la société peut entretenir hors des champs.</figcaption>
+  <script>
+  (function(){
+    var i=document.getElementById("fs-in");if(!i)return;
+    var sub=document.getElementById("fs-sub"),sur=document.getElementById("fs-sur"),
+        fr=document.getElementById("fs-fr"),sl=document.getElementById("fs-subl"),
+        rl=document.getElementById("fs-surl"),out=document.getElementById("fs-out"),
+        ra=document.getElementById("fs-ratio");
+    function f(){
+      var p=+i.value, x=Math.round(640*p/100);
+      sub.setAttribute("width",Math.max(0,x-4));
+      sur.setAttribute("x",x+2); sur.setAttribute("width",Math.max(0,638-x-2));
+      fr.setAttribute("x1",x); fr.setAttribute("x2",x);
+      sl.textContent="SUBSISTANCE "+p+" %"; rl.textContent="SURPLUS "+(100-p)+" %";
+      out.textContent=p+" %";
+      var prod=(p/(100-p));
+      ra.textContent="≈ 1 non-producteur entretenu pour "+(prod<9.95?prod.toFixed(1):Math.round(prod))+" producteurs";
+    }
+    i.addEventListener("input",f); f();
+  })();
+  </script>
+</figure>
