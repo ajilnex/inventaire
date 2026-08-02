@@ -156,10 +156,16 @@ def page(gabarit, *, titre, desc, canonique, contenu, racine, modcode="", audio=
     return p
 
 
+def duree_mp3(chemin):
+    """Durée en minutes. Les pistes sont encodées à débit constant de 64 kbit/s."""
+    return max(1, round(os.path.getsize(chemin) * 8 / 64000 / 60))
+
+
 def bloc_audio(nn, racine):
-    if os.path.exists(os.path.join(RACINE, "audio", "%s.mp3" % nn)):
+    chemin = os.path.join(RACINE, "audio", "%s.mp3" % nn)
+    if os.path.exists(chemin):
         corps = '<audio controls preload="none" src="%saudio/%s.mp3"></audio>' % (racine, nn)
-        etiquette = "Écouter ce module — MOD.%s" % nn
+        etiquette = "Écouter ce module — %d min" % duree_mp3(chemin)
     else:
         corps = '<span class="abs">piste en préparation</span>'
         etiquette = "Piste audio — MOD.%s" % nn
@@ -221,11 +227,11 @@ def construire():
             if not trouve:
                 continue
             _, base_nom, mod = trouve[0]
-            audio_dispo = os.path.exists(os.path.join(RACINE, "audio", "%s.mp3" % nn))
-            badge = '<span class="au" title="piste audio disponible">▶ audio</span>' if audio_dispo else ""
+            piste = os.path.join(RACINE, "audio", "%s.mp3" % nn)
+            badge = ('<span class="au" title="piste audio disponible">▶ %d min</span>' % duree_mp3(piste)) if os.path.exists(piste) else ""
             reg.append('<li><a href="cours/%s.html"><span class="n">MOD.%s</span>'
                        '<span class="t">%s</span>%s<span class="dots"></span>'
-                       '<span class="len">%d min</span></a></li>' % (base_nom, nn, H.escape(mod["titre"]), badge, mod["minutes"]))
+                       '<span class="len">lire %d min</span></a></li>' % (base_nom, nn, H.escape(mod["titre"]), badge, mod["minutes"]))
         reg.append("</ul>")
     registre = "\n".join(reg)
 

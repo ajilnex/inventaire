@@ -110,7 +110,38 @@ if os.path.isdir(dossier) and os.listdir(dossier):
 else:
     print("  —      pas encore de textes oraux (toléré)")
 
-print("[7] sitemap")
+print("[7] pistes audio")
+dossier = os.path.join(RACINE, "audio")
+pistes = sorted(f for f in os.listdir(dossier) if f.endswith(".mp3")) if os.path.isdir(dossier) else []
+if pistes:
+    for f in pistes:
+        chemin = os.path.join(dossier, f)
+        taille = os.path.getsize(chemin)
+        with open(chemin, "rb") as fh:
+            tete = fh.read(3)
+        if tete not in (b"ID3", b"\xff\xfb\x90", b"\xff\xf3\x90") and tete[:2] not in (b"\xff\xfb", b"\xff\xf3"):
+            erreur("audio/%s : en-tête MP3 invalide" % f)
+        if taille < 200000:
+            erreur("audio/%s : %d octets, piste probablement tronquée" % (f, taille))
+        if not os.path.exists(os.path.join(RACINE, "audio-texte", f[:-4] + ".txt")):
+            erreur("audio/%s : texte source absent" % f)
+    total = sum(os.path.getsize(os.path.join(dossier, f)) for f in pistes)
+    if total > 400 * 1024 * 1024:
+        erreur("audio : %d Mo, au-delà du raisonnable pour Pages" % (total // 1048576))
+    ok("%d pistes, %d Mo, ≈ %d min" % (len(pistes), total // 1048576, total * 8 / 64000 / 60))
+else:
+    print("  —      pas encore de pistes (toléré)")
+
+print("[8] image de partage")
+og = re.search(r'og:image" content="([^"]+)"', open(os.path.join(RACINE, "_template.html"), encoding="utf-8").read())
+if og:
+    nom = og.group(1).rsplit("/", 1)[-1]
+    if not os.path.exists(os.path.join(RACINE, "assets", nom)):
+        erreur("assets/%s référencé par og:image mais absent" % nom)
+    else:
+        ok("assets/%s présent" % nom)
+
+print("[9] sitemap")
 chemin = os.path.join(RACINE, "sitemap.xml")
 if not os.path.exists(chemin):
     erreur("sitemap.xml absent")

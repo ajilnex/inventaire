@@ -21,8 +21,10 @@ Ce fichier s'adresse à tout agent — humain ou machine — qui développe ce d
 ```
 src-md/*.md ──build.py──▶ *.html + cours/*.html + sitemap.xml
 src-md/_fragments/fig-*.html ──(marqueur @@FIG:nom@@)──▶ injectés en place
-audio-texte/NN.txt ──API TTS──▶ audio/NN.mp3
+audio-texte/NN.txt ──generer_audio.py──▶ audio/NN.mp3
 ```
+
+**Audio.** `python3 generer_audio.py [NN …]` produit les pistes manquantes ; la clé API est lue dans `~/.config/elevenlabs/key` et **ne doit jamais entrer dans le dépôt**. Les pistes sont ensuite réencodées en **MP3 mono 64 kbit/s à débit constant** — c'est ce débit qui permet à `build.py` de calculer les durées affichées sans dépendance, et il divise par deux le poids pour les lecteurs en données mobiles. Le script refuse d'écraser une piste existante : supprimer le fichier pour régénérer.
 
 - `src-md/` est **la seule source de vérité** du contenu. On n'édite jamais un HTML généré.
 - `python3 build.py` doit rester **sans dépendance** (Python 3 standard uniquement) et idempotent.

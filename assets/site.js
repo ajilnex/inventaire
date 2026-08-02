@@ -30,7 +30,9 @@
         if (en.isIntersecting) { en.target.classList.add("on"); io.unobserve(en.target); }
       });
     }, { threshold: 0.15 });
-    document.querySelectorAll("figure.diagram, .piste").forEach(function (el) {
+    // le bloc audio n'est jamais animé : c'est la première offre de la page,
+    // il doit être visible même si ce script ne s'exécute pas.
+    document.querySelectorAll("figure.diagram").forEach(function (el) {
       el.classList.add("rise");
       io.observe(el);
     });

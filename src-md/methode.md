@@ -43,7 +43,11 @@ Un seul réglage à changer : dans les options du paquet, passez **nouvelles car
 
 ## 3. L'audio
 
-Chaque module a sa piste, lisible en bas de page. La voix est générée ; le texte lu est une version orale du module — chiffres en toutes lettres, références allégées — dont la source est publiée dans le dépôt. L'écoute seule ne fait pas l'étude ; elle fait très bien la première approche et la révision.
+Chaque module s'écoute, en tête de sa page : deux heures trente de cours parlé au total, de dix à quinze minutes par module.
+
+La voix est synthétique, et le texte lu n'est pas le texte écrit — c'est une **version orale**, refaite phrase à phrase pour l'oreille : nombres et siècles en toutes lettres, citations annoncées, références rejetées en fin de module. Ces treize textes sont publiés dans le dépôt, sous `audio-texte`, avec le programme qui produit les pistes : vous pouvez donc vérifier ce qui est dit, et le régénérer d'une autre voix si celle-ci vous déplaît.
+
+L'écoute seule ne fait pas l'étude — elle ne remplace ni la lecture des modules ni celle des livres. Elle fait très bien deux choses : la première approche d'un module qu'on lira ensuite, et la révision d'un module qu'on a déjà travaillé.
 
 ## 4. Licence, source, corrections
 

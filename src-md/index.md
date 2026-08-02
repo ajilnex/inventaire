@@ -1,12 +1,14 @@
 <p class="manifeste">Les sociétés humaines produisent plus qu'il ne leur faut pour survivre. <em>Qui prend la différence, comment, et au nom de quoi&nbsp;?</em></p>
 
-<p class="sceau">Inventaire · cours d'introduction à l'économie politique historique · douze modules · texte, audio, cartes de mémorisation · offert au monde</p>
+<p class="sceau">Inventaire · cours d'introduction à l'économie politique historique · douze modules · deux heures trente de cours parlé · deux cents cartes de mémorisation · offert au monde</p>
 
 ---
 
 Ce cours ne suppose aucun acquis. Il construit chaque notion devant vous, à partir de définitions opératoires, et vous mène jusqu'aux controverses qui occupent aujourd'hui les meilleurs chercheurs — la grande divergence entre l'Europe et la Chine, l'énergie et le capital, l'esclavage dans la naissance de l'industrie, la crise actuelle de la preuve statistique en histoire.
 
-Il ne remplace pas les livres : il est l'échafaudage de leur lecture. Chaque module se lit en vingt minutes ; la lecture qu'il commande prend une semaine, et c'est elle qui vous formera. Chaque module existe aussi en **version audio**, et se clôt par un **paquet de cartes** à mémorisation espacée — la méthode est expliquée sur la page [Méthode](methode.html).
+Il ne remplace pas les livres : il est l'échafaudage de leur lecture. Chaque module se lit en une dizaine de minutes ; la lecture qu'il commande prend une semaine, et c'est elle qui vous formera.
+
+**Chaque module s'écoute aussi.** Le cours entier existe en version parlée — deux heures trente, une piste par module, en tête de chaque page. Pour le train, la marche, la révision. Et chaque module se clôt par un **paquet de cartes** à mémorisation espacée : la méthode est expliquée sur la page [Méthode](methode.html).
 
 <!--REGISTRE-->
 
