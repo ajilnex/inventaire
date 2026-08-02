@@ -1,0 +1,22 @@
+{
+  "site": {
+    "nom": "Décodage",
+    "accroche": "Des cours qui construisent tout devant vous, sans rien supposer d'acquis.",
+    "base": "https://ajilnex.github.io/inventaire/"
+  },
+  "cours": [
+    {
+      "slug": "inventaire",
+      "titre": "Inventaire",
+      "sous_titre": "Introduction à l'économie politique historique",
+      "statut": "publié",
+      "resume": "Les sociétés humaines produisent plus qu'il ne leur faut pour survivre. Qui prend la différence, comment, et au nom de quoi ? De la tablette comptable d'Uruk à la crise contemporaine de la preuve statistique en histoire.",
+      "mouvements": [
+        { "nom": "Ouverture", "modules": ["00"] },
+        { "nom": "I. Le monde plein", "modules": ["01", "02", "03", "04", "05", "06"] },
+        { "nom": "II. La rupture", "modules": ["07", "08", "09", "10"] },
+        { "nom": "III. Comment on sait", "modules": ["11", "12"] }
+      ]
+    }
+  ]
+}

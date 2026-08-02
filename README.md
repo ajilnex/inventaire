@@ -1,23 +1,32 @@
-# Inventaire
+# Décodage
 
-**Cours d'introduction à l'économie politique historique** — texte, audio, cartes de mémorisation espacée. Publié à l'adresse : **https://ajilnex.github.io/inventaire/**
+**Des cours ouverts** — texte, audio, cartes de mémorisation espacée. Gratuits, sans compte, sans publicité. Publiés à l'adresse : **https://ajilnex.github.io/inventaire/**
 
-Les sociétés humaines produisent plus qu'il ne leur faut pour survivre. Qui prend la différence, comment, et au nom de quoi ? Douze modules, de la tablette comptable d'Uruk à la crise contemporaine de la preuve statistique en histoire, en dialogue constant avec les auteurs qui structurent la discipline — Scott, Wrigley, Braudel, Polanyi, Pomeranz, Allen, Malm, Beckert, Tilly, Acemoglu, Bloch, Porter.
+### Cours publiés
+
+**[Inventaire](https://ajilnex.github.io/inventaire/cours/inventaire/)** — *Introduction à l'économie politique historique.* Les sociétés humaines produisent plus qu'il ne leur faut pour survivre : qui prend la différence, comment, et au nom de quoi ? Treize modules, deux heures trente de cours parlé, deux cent une cartes — de la tablette comptable d'Uruk à la crise contemporaine de la preuve statistique en histoire, en dialogue avec Scott, Wrigley, Braudel, Polanyi, Pomeranz, Allen, Malm, Beckert, Tilly, Acemoglu, Bloch et Porter.
 
 ## Structure du dépôt
 
 ```
-src-md/           sources du cours (markdown) — la vérité du contenu
-src-md/_fragments/  figures interactives (HTML/SVG autonomes)
-cours/            pages HTML générées (ne pas éditer à la main)
-anki/             paquets de cartes, un par module (.txt importables dans Anki)
-audio/            pistes audio générées (une par module)
-audio-texte/      versions orales des modules (source des pistes)
-assets/           style.css, site.js, image de partage
-_template.html    gabarit unique de page
-build.py          génération complète du site : python3 build.py
-check.py          suite de vérifications : python3 check.py
+cours.json              déclaration des cours — le point d'entrée du générateur
+src-md/                 sources (markdown) — la vérité du contenu
+  index.md              accueil du site
+  cours.md              la page listant les cours
+  methode.md            méthode de travail, transversale à tous les cours
+  _fragments/           figures interactives (HTML/SVG autonomes)
+  cours/<slug>/         un cours : _cours.md, NN-titre.md, bibliographie.md
+anki/<slug>/            paquets de cartes, un par module
+audio/<slug>/           pistes audio (MP3 mono 64 kbit/s)
+audio-texte/<slug>/     versions orales des modules — source des pistes
+assets/                 style.css, site.js, image de partage
+_template.html          gabarit unique de page
+build.py                génération du site : python3 build.py
+check.py                suite de vérifications : python3 check.py
+generer_audio.py        production des pistes depuis audio-texte/
 ```
+
+Les pages HTML à la racine et dans `cours/` sont **générées** : ne jamais les éditer à la main.
 
 ## Développer
 

@@ -1,6 +1,6 @@
 # Méthode
 
-Comment travailler avec ce cours — le texte, l'audio, et les cartes de mémorisation.
+Comment travailler avec les cours de Décodage — la lecture, l'écoute, les cartes de mémorisation espacée. Cette page vaut pour tous les cours ; chaque cours porte en propre ses leçons, ses pistes et sa bibliographie.
 
 ---
 

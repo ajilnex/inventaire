@@ -1,4 +1,4 @@
-# AGENTS.md — invariants du projet Inventaire
+# AGENTS.md — invariants du projet Décodage
 
 Ce fichier s'adresse à tout agent — humain ou machine — qui développe ce dépôt. Les règles ci-dessous ne sont pas des préférences : elles sont le contrat du projet. Une contribution qui les viole est refusée, si brillante soit-elle.
 
@@ -19,14 +19,15 @@ Ce fichier s'adresse à tout agent — humain ou machine — qui développe ce d
 ## 3. Le pipeline
 
 ```
-src-md/*.md ──build.py──▶ *.html + cours/*.html + sitemap.xml
+cours.json + src-md/**.md ──build.py──▶ *.html + cours/<slug>/*.html + sitemap.xml
 src-md/_fragments/fig-*.html ──(marqueur @@FIG:nom@@)──▶ injectés en place
-audio-texte/NN.txt ──generer_audio.py──▶ audio/NN.mp3
+audio-texte/<slug>/NN.txt ──generer_audio.py──▶ audio/<slug>/NN.mp3
 ```
 
 **Audio.** `python3 generer_audio.py [NN …]` produit les pistes manquantes ; la clé API est lue dans `~/.config/elevenlabs/key` et **ne doit jamais entrer dans le dépôt**. Les pistes sont ensuite réencodées en **MP3 mono 64 kbit/s à débit constant** — c'est ce débit qui permet à `build.py` de calculer les durées affichées sans dépendance, et il divise par deux le poids pour les lecteurs en données mobiles. Le script refuse d'écraser une piste existante : supprimer le fichier pour régénérer.
 
-- `src-md/` est **la seule source de vérité** du contenu. On n'édite jamais un HTML généré.
+- `cours.json` déclare les cours ; `src-md/` est **la seule source de vérité** du contenu. On n'édite jamais un HTML généré.
+- Les ressources statiques portent une empreinte de version (`style.css?v=…`) calculée depuis leur contenu : un déploiement met à jour les navigateurs sans jamais désactiver leur cache.
 - `python3 build.py` doit rester **sans dépendance** (Python 3 standard uniquement) et idempotent.
 - `python3 check.py` doit rester **vert** ; toute nouvelle fonctionnalité ajoute ses vérifications.
 
@@ -37,7 +38,7 @@ Transformation, jamais résumé : le texte oral contient toutes les phrases du m
 - Siècles en toutes lettres (« dix-huitième siècle »), « pour cent » en toutes lettres, monnaies dites (« livres sterling »).
 - Citations encadrées à l'oral : « je cite : … Fin de citation. »
 - Listes converties en énumérations parlées ; titres de sections dits en phrases ; le bloc Lecture devient une phrase finale « Les lectures de ce module : … ».
-- Un fichier par module, `NN.txt`, moins de quarante mille caractères.
+- Un fichier par module, `audio-texte/<slug>/NN.txt`, moins de quarante mille caractères.
 
 ## 5. Design
 
@@ -48,8 +49,15 @@ Transformation, jamais résumé : le texte oral contient toutes les phrases du m
 
 ## 6. Ajouter un module, ajouter un cours
 
-- **Module** : créer `src-md/NN-slug.md` au format ci-dessus ; créer le paquet `anki/NN-slug.txt` (mêmes en-têtes que les paquets existants, cartes tirées du seul texte du module) ; créer `audio-texte/NN.txt` selon le contrat oral ; `build.py` fait le reste ; `check.py` doit rester vert.
-- **Cours futur** : le premier cours occupe la racine et cela ne changera pas (les URL publiées ne cassent jamais). Un deuxième cours vit dans son répertoire (`/nom-du-cours/`) avec son propre `src-md/`, réutilise `assets/` et `_template.html`, et s'ajoute au registre de la page d'accueil. Documenter son arrivée ici même.
+- **Module** dans un cours existant `<slug>` : créer `src-md/cours/<slug>/NN-titre.md` au format ci-dessus ; l'ajouter au mouvement voulu dans `cours.json` ; créer `anki/<slug>/NN-titre.txt` (cartes tirées du seul texte du module) et `audio-texte/<slug>/NN.txt` selon le contrat oral ; générer la piste ; `build.py` fait le reste.
+
+- **Cours nouveau** : c'est une opération **déclarative**, `build.py` n'a pas à changer.
+  1. Ajouter une entrée dans `cours.json` : `slug`, `titre`, `sous_titre`, `resume`, `statut`, et les `mouvements` (nom + numéros de modules).
+  2. Créer `src-md/cours/<slug>/` avec `_cours.md` (page du cours, contenant le marqueur `<!--REGISTRE-->`), les modules `NN-titre.md`, et `bibliographie.md`.
+  3. Créer `anki/<slug>/`, `audio-texte/<slug>/`, `audio/<slug>/`.
+  4. `python3 build.py && python3 check.py`. Le cours apparaît seul dans la liste de l'accueil et dans `/cours/`.
+
+- **Les URL publiées ne cassent jamais.** Si un chemin doit changer, `build.py` écrit une page de redirection à l'ancienne adresse — voir le dictionnaire `anciennes` en fin de `construire()`, et le test [5] de `check.py` qui vérifie qu'aucune ne manque.
 
 ## 7. Vérification avant toute poussée
 
