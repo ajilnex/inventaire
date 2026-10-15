@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Décodage — suite de vérifications. Doit rester verte. Usage : python3 check.py"""
 import json
+import html
 import os
 import re
 import sys
@@ -46,14 +47,28 @@ else:
     ok("%d pages, %d cours" % (len(pages), len(CONFIG["cours"])))
 
 print("[2] chaînes interdites")
-INTERDITS = ["_texte", "Bibliothèque céleste", "Anna's Archive", "annas-archive", "z-lib",
-             "Module à rédiger", "votre étagère", "@@FIG", "{{", "{RACINE}", "scratchpad", "aubinrobert"]
+INTERDITS = ["_texte", "Module à rédiger", "votre étagère", "@@FIG", "{{", "{RACINE}", "scratchpad"]
+# Les interdits propres à la machine et aux provenances ne sont pas publiés : variable
+# INTERDITS_LOCAUX (secret de la CI) ou fichier ~/.config/inventaire/interdits.txt, un par ligne.
+# On ne les nomme jamais dans la sortie, seulement par leur rang.
+brut = os.environ.get("INTERDITS_LOCAUX") or ""
+local = os.path.expanduser("~/.config/inventaire/interdits.txt")
+if not brut and os.path.exists(local):
+    with open(local, encoding="utf-8") as fh:
+        brut = fh.read()
+LOCAUX = [l.strip() for l in brut.splitlines() if l.strip() and not l.lstrip().startswith("#")]
+if not LOCAUX:
+    (erreur if os.environ.get("CI") else print)("interdits locaux absents (INTERDITS_LOCAUX ou %s)" % local)
 for p in pages:
     with open(p, encoding="utf-8") as fh:
         contenu = fh.read()
+    contenu += "\n" + html.unescape(contenu)  # les titres et descriptions sont échappés
     for mot in INTERDITS:
         if mot in contenu:
             erreur("%s contient « %s »" % (os.path.relpath(p, RACINE), mot))
+    for i, mot in enumerate(LOCAUX, 1):
+        if mot in contenu:
+            erreur("%s contient l'interdit local n° %d" % (os.path.relpath(p, RACINE), i))
 if not ECHECS:
     ok("balayage terminé")
 

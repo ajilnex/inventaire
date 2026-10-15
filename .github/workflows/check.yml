@@ -10,3 +10,5 @@ jobs:
           python-version: "3.12"
       - run: python3 build.py
       - run: python3 check.py
+        env:
+          INTERDITS_LOCAUX: ${{ secrets.INTERDITS_LOCAUX }}
